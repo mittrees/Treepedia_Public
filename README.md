@@ -10,7 +10,7 @@ If you are a government, researcher or stakeholder that has used this library to
 <br />
 
 <p align="center">
-  <img width="460" height="300" src="https://github.mit.edu/abdulhai/Treepedia/blob/master/img.jpg">
+  <img width="460" height="300" src="https://github.com/ianseifs/Treepedia_Public/blob/master/img.jpg">
 </p>
 
 # Workflow 
@@ -21,17 +21,17 @@ The project has the following workflow:
 With the street network and boundary shapefile for your city as input, a shapefile containing points every 20m (which can be changed depending on the size of the city) will be generated to be fed into the Google API to retrieve Google Street View Images. 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.mit.edu/abdulhai/Treepedia/blob/master/images/img2.jpg">
+  <img width="460" height="300" src="https://github.com/ianseifs/Treepedia_Public/blob/master/images/img2.jpg">
 </p>
 
 <p align="center">
-  <img width="460" height="300" src="https://github.mit.edu/abdulhai/Treepedia/blob/master/images/img1.jpg">
+  <img width="460" height="300" src="https://github.com/ianseifs/Treepedia_Public/blob/master/images/img1.jpg">
 </p>
 
 Note that spatial files must be in the projected WGS84 system.
 
 Example:
-You can just run the code of "createPoints.py" [here](https://github.mit.edu/SenseableCityLab/Treepedia/blob/master/Treepedia/createPoints.py)
+You can just run the code of "createPoints.py" [here](https://github.com/ianseifs/Treepedia_Public/blob/master/Treepedia/createPoints.py)
 
 python createPoints.py
 
@@ -44,11 +44,11 @@ In the example, I use Cambridge as example. At the buttom of the code, you can s
 With the shapefile as input, metadata containing the panoID, panoDate, latitude, longitude and tilt specifications for the image will be stored in textfiles to be later used to calculate the Green View Index. 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.mit.edu/abdulhai/Treepedia/blob/master/images/img3.jpg">
+  <img width="460" height="300" src="https://github.com/ianseifs/Treepedia_Public/blob/master/images/img3.jpg">
 </p>
 
 Example:
-You can just run the code of "metadataCollector.py" [here](https://github.mit.edu/SenseableCityLab/Treepedia/blob/master/Treepedia/metadataCollector.py)
+You can just run the code of "metadataCollector.py" [here](https://github.com/ianseifs/Treepedia_Public/blob/master/Treepedia/metadataCollector.py)
 
 python metadataCollector.py
 
@@ -60,12 +60,12 @@ The input of this code is created sample site shapefile. In the example, I use C
 Using Otsu's method and the pymeanshift package, the Green View Index is computed for all 6 images at each sampling point; for each sampling point the GVI values are then averaged to provide a single GVI value for every point along the street network. Finally, a shapefile will be generated containing all attributes, including the GVI, of the points on the street network. 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.mit.edu/abdulhai/Treepedia/blob/master/images/img4.jpg">
+  <img width="460" height="300" src="https://github.com/ianseifs/Treepedia_Public/blob/master/images/img4.jpg">
 </p>
 
 Example:
 
-You can just run the code of "GreenView_Calculate.py" [here](https://github.mit.edu/SenseableCityLab/Treepedia/blob/master/Treepedia/GreenView_Calculate.py)
+You can just run the code of "GreenView_Calculate.py" [here](https://github.com/ianseifs/Treepedia_Public/blob/master/Treepedia/GreenView_Calculate.py)
 
 python GreenView_Calculate.py
 
@@ -73,7 +73,7 @@ The input of this code is the collected metadata of GSV. By reading the metadat,
 
 You can open several process to run this code simutaniously, because the output will be saved as txt files in folder. If the output txt file is already there, then the code will move to the next metadata txt file and generate the GVI for next 1000 points.
 
-After finishing the computing, you can run the code of "Greenview2Shp.py" [here](https://github.mit.edu/SenseableCityLab/Treepedia/blob/master/Treepedia/Greenview2Shp.py), and save the result as shapefile, if you are more comfortable with shapefile.
+After finishing the computing, you can run the code of "Greenview2Shp.py" [here](https://github.com/ianseifs/Treepedia_Public/blob/master/Treepedia/Greenview2Shp.py), and save the result as shapefile, if you are more comfortable with shapefile.
 
 
 # Dependencies
