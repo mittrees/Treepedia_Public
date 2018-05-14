@@ -1,5 +1,1 @@
-AIzaSyDIDMKzl9HG2kFEUkMf9M0JQyIwBO0oXRc
-AIzaSyDBxt2KfiXucvfdRqj-Y8BTqWQfrGdvaks
-AIzaSyD3EGibbnsCJ4YnPz1YtoRywtQvvKbSqGQ
-AIzaSyBgkfWOx8U9fJLW-W2gP-5KWBybo1Dgjiw
-AIzaSyDlNFSPTTuj0FJnkVAh3O2HskqDxKNyjU4
+add your Google API keys here (1 key per line)
