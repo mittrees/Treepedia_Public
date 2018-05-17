@@ -2,7 +2,7 @@
 
 **What is Treepedia?**
 
-Treepedia is a new venture by the MIT Senseable City Lab to measure the green canopy of cities. Researchers at MIT and the World Economic Forum (WEF) are using Google Street View panoramas to calculate a Green View Index. The goal is to focus attention on the value of plants in urban areas and encourage residents and governments to protect and increase each city’s tree cover. On each map, you can click down to get a street view of a particular location and its canopy percentage.
+Treepedia is a project by the MIT Senseable City Lab to measure the green canopy of cities. Researchers at MIT and the World Economic Forum (WEF) are using Google Street View panoramas to calculate a Green View Index. The goal is to focus attention on the value of plants in urban areas and encourage residents and governments to protect and increase each city’s tree cover. On each map, you can click down to get a street view of a particular location and its canopy percentage.
 
 If you would like to contribute to this now open-sourced project and calculate the green view index for your city, follow the instructions below.
 
